@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+
+# vim and plugins
+.DS_Store
+*~
+*.swp
+*.d
+cscope.*
+tags
+project.vim
+rundata*.txt
