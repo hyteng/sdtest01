@@ -1,3 +1,14 @@
+/*=============================================================================
+#     FileName: SDTest01ActionInitialization.cpp
+#         Desc: user action Initialization
+#       Author: Haiyun Teng
+#        Email: haiyun.teng@gmail.com
+#     HomePage: 
+#      Version: 0.0.1
+#   LastChange: 2015-10-25 12:05:06
+#      History: 
+=============================================================================*/
+
 #include "SDTest01ActionInitialization.h"
 
 #include "SDTest01PrimaryGeneratorAction.h"
