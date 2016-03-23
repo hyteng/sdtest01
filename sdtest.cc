@@ -1,8 +1,8 @@
 /*=============================================================================
 FileName: sdtest.cc
 Desc: scintillator dectector test simulation
-Author: Haiyun.teng
-Email: Haiyun.teng@gmail.com
+Author: Haiyun.TENG
+Email: haiyun.teng@gmail.com
 Version: 0.0.1
 =============================================================================*/ 
 
@@ -49,6 +49,7 @@ int main(int argc, char** argv) {
     // Run manager
     #ifdef G4MULTITHREADED
     G4MTRunManager * runManager = new G4MTRunManager;
+    runManager->SetNumberOfThreads(G4Threading::G4GetNumberOfCores());
     #else
     G4RunManager* runManager = new G4RunManager;
     #endif
